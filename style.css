@@ -125,24 +125,37 @@ body{
     padding: 1px 16rem 1px 16px;
     
   }
+
   
-  @media screen and (max-width: 700px) {
+  
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+ 
+  
+  @media only screen and (max-width: 600px){
+     
     .sidebar {
       width: 100%;
       height: auto;
       position: relative;
     }
     .sidebar a {float: left;}
-    div.content {margin-left: 0;padding-right:16px;}
+    div.content {margin-left: 0;  
+        padding: 1px 16px 1px 16px;
+        
+      }
   }
   
-  @media screen and (max-width: 400px) {
+  
+
+  /* @media screen and (max-width: 400px) {
     .sidebar a {
       text-align: center;
       float: none;
     }
-  }
+  } */
 
+ 
   .box{
     border: 3px solid;
     padding: 2rem;
