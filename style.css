@@ -1,0 +1,155 @@
+h1{
+    color:red;
+}
+body{
+    background-color: #f3d250eb!important;
+    line-height: 1;
+    background-attachment: fixed;
+}
+.cb{
+    color:#222629
+}
+.cy{
+    color:#F3D250
+}
+.nav-custom{
+    background-color: #F3D250!important;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.shadow:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.mt-12{
+    margin-top: 6rem;
+}
+.card-dark{
+   background-color: #222629; 
+   height:100%;
+   color:white;
+   opacity: 0.9;
+}
+
+.card-light{
+    
+        background-color: #ffffffc7; 
+        height:100%;
+        color:black;
+        opacity: 0.8;
+     
+}
+.heading{
+    font-size: 6rem;
+    font-family: system-ui;
+    font-weight: bolder;
+    line-height: 1;
+}
+.sub-heading{
+    font-size: 1.5rem;
+    font-family: system-ui;
+    line-height: 1.2;
+}
+
+.section-heading{
+    
+    font-size: 4rem;
+    font-family: system-ui;
+    font-weight: bolder;
+    line-height: 1;
+}
+.img-profile{
+   
+        border-radius: 50%;
+        width:9rem;
+        border:5px solid black;
+       
+    outline: 0;
+}
+
+.line-b{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid black;
+}
+
+.scaling{
+    transition: transform 0.5s;
+}
+
+.scaling:hover{
+    transform: scale(1.05,1.05);
+}
+.move-1{
+  position: relative;
+  animation: mymove 5s 1;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+
+  /* sidebar */
+
+  .sidebar {
+    margin: 0;
+    right:0;
+    border-left: solid 2px black;
+    padding: 0rem 2rem;
+    width: 15rem;
+    /* transition: all 5s ease; */
+    position: fixed;
+    height: 75%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    color: black;
+  }
+  
+  div.content {
+    padding: 1px 16rem 1px 16px;
+    
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;padding-right:16px;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  .box{
+    border: 3px solid;
+    padding: 2rem;
+    
+  }
+  .box-w {
+    border: 3px solid white;
+    padding: 2rem;
+   
+  }
