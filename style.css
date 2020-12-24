@@ -139,8 +139,8 @@ body{
       position: fixed;
       margin-top: -6rem;
       z-index: 1;
-      background-color: #ffe270eb!important;
-    
+      background-color: #ffe270fc!important;
+      line-height: 0;
     }
     .sidebar a {float: left;}
     div.content {margin-left: 0; 
