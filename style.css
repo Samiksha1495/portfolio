@@ -1,9 +1,12 @@
 h1{
     color:red;
 }
+html{scroll-behavior:smooth}
 body{
-    background-color: #f3d250eb!important;
+  background-color: #ffe270eb!important;
+    /* background-color: #f3d250eb!important; */
     line-height: 1;
+    width: fit-content!important;
     background-attachment: fixed;
 }
 .cb{
@@ -37,7 +40,7 @@ body{
         background-color: #ffffffc7; 
         height:100%;
         color:black;
-        opacity: 0.8;
+        opacity: 0.9;
      
 }
 .heading{
@@ -100,7 +103,7 @@ body{
     border-left: solid 2px black;
     padding: 0rem 2rem;
     width: 15rem;
-    /* transition: all 5s ease; */
+    
     position: fixed;
     height: 75%;
     overflow: auto;
@@ -126,11 +129,6 @@ body{
     
   }
 
-  
-  
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
- 
   
   @media only screen and (max-width: 600px){
      
