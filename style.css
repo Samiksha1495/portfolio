@@ -140,7 +140,7 @@ body{
       margin-top: -6rem;
       z-index: 1;
       background-color: #ffe270fc!important;
-      line-height: 0;
+      line-height: 0!important;
     }
     .sidebar a {float: left;}
     div.content {margin-left: 0; 
