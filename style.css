@@ -127,9 +127,9 @@ body{
     border-left: solid 2px black;
     padding: 0rem 2rem;
     width: 15rem;
-    
+    top: 50px;
     position: fixed;
-    height: 82%;
+    height: 90%;
     overflow: auto;
   }
   
