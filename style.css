@@ -74,6 +74,10 @@ body{
 .border-5{
   border:5px solid black;
 }
+
+.border-w{
+  border:5px solid white;
+}
 .img-profile{
    
         border-radius: 50%;
