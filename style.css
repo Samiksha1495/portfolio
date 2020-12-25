@@ -4,17 +4,24 @@ h1{
 html{scroll-behavior:smooth}
 body{
   background-color: #ffe270eb!important;
-    /* background-color: #f3d250eb!important; */
+  /* background-image: url("Decorative-Grey-Floral-Background.jpg"); */
+  background-repeat: no-repeat;
+  /* color:white; */
+    /* background-color: #AFD275!important; */
     line-height: 1;
     width: fit-content!important;
+    background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
 }
 .cb{
-    color:#222629
+    color:black;
 }
 .cy{
     color:#F3D250
+}
+.cw{
+  color: white;
 }
 .nav-custom{
     background-color: #F3D250!important;
