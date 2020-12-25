@@ -72,7 +72,7 @@ body{
 }
 
 .logo{
-    border-style: dashed;
+    border: dashed;
     border-radius: 50%;
     width:50%;
     padding: 3px;
