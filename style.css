@@ -70,6 +70,10 @@ body{
     font-weight: bolder;
     line-height: 1;
 }
+
+.border-5{
+  border:5px solid black;
+}
 .img-profile{
    
         border-radius: 50%;
