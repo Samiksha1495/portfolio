@@ -71,6 +71,14 @@ body{
     line-height: 1;
 }
 
+.logo{
+    border-style: dashed;
+    border-radius: 50%;
+    width:50%;
+    padding: 3px;
+    color: black;
+}
+
 .border-5{
   border:5px solid black;
 }
@@ -121,7 +129,7 @@ body{
     width: 15rem;
     
     position: fixed;
-    height: 75%;
+    height: 82%;
     overflow: auto;
   }
   
@@ -156,11 +164,15 @@ body{
       z-index: 1;
       background-color: #ffe270fc!important;
       line-height: 0!important;
+      padding:0;
     }
     .sidebar a {float: left;}
     div.content {margin-left: 0; 
         padding: 6rem 16px 1px 16px;
         
+      }
+      .logo{
+        width:100%;
       }
   }
   
